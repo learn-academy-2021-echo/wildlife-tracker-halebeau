@@ -37,7 +37,7 @@ class AnimalsController < ApplicationController
         end
     end
 
-    private
+private
     def animal_params
         params.require(:animal).permit(:common_name, :latin_name, :kingdom)
     end
