@@ -43,7 +43,7 @@ private
     end
 end
 
-
+# Orignal code 
 
 # class SightingsController < ApplicationController
 
